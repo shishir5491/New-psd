@@ -1,0 +1,130 @@
+/* global css */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+ul li{
+	list-style: none;
+}
+
+.header-section{
+	width: 100%;
+	float: left;
+	
+}
+
+.top{
+	background-color: green;
+	height: 100px;
+
+}
+
+.logo{
+	position: relative;
+	float: left;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.logo img{
+	width: 150px;
+	height: 70px;
+}
+
+.social-icon{
+	float:right;
+	margin-top: 40px;
+	margin-right: 50px;
+}
+
+.social-icon img{
+	height: 20px;
+	width: 20px;
+
+}
+/* navigation-menu */
+
+.navigation-bar{
+	width: 100%;
+	background-color:#ac0d0d;
+	height: 60px;
+	float: left;
+	-webkit-box-shadow: 0px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	
+}
+.navigation-menu{
+	margin-left: 30%;
+	padding-top: 18px;
+}
+.navigation-menu ul li{
+	list-style: none;
+	display:inline;
+	margin-left: 40px;
+	color: white;
+}
+
+.header-banner{
+	background: url(../images/pizzahut.jpg);
+	background-size: cover;
+}
+
+.header-tag{
+	padding: 250px 0px;
+	
+}
+
+.header{
+	width: 60%;
+	margin: 0 auto;
+	background-color: #0009;
+	margin-top: 50px;
+}
+.header h1{
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 40px;
+	color: white;
+}
+
+/* about-us-section */
+
+.about-us-section{
+	width: 100%;
+	background-color: red;
+	border-top: 3px dashed black;
+	border-top: 3px dashed black;
+
+}
+
+.about-us-section h1{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.container-fluid{
+	height: 60px;
+	width: 100%;
+	background-color: green;
+}
+.container-fluid h3{
+	text-align: center;
+	padding-top: 16px;
+}
+.about-left{
+	padding-top: 60px;
+	margin-left:290px;
+	padding-bottom: 30px;
+}
